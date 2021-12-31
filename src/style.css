@@ -51,11 +51,52 @@ section {
 
 /* Card */
 
+
+
 .card--img {
-  background-image: url('https://s3-alpha-sig.figma.com/img/9482/8e80/5b8276d0107c051ebf1f83bddb196691?Expires=1641772800&Signature=C8uI3KHp-Ze568FdQnPtvmE0DjksxoJ4CQ44q8PVI2kVplJsnqOqhoxwtDG551TCcUrLXkuGcS1n5pJdb4V9Us-e3~VfolIOx~M4sETTrnls1A8Lr4zAK2cxU7lc-y0LwTzd1U7S7VQ9jYxB-Andreu~i955wwrEFwaAnHxWRhazFJnzsTNEEE7tfLqgQIxlQAFXUB9xxF8LxJ5LYTMXNodlzmVvAhv7Z8PPgAKR4hg4CN~7QcrlJJUCEr1wfXfmLjkbGq0bkup8HnJo8-8SisCvRxQgw-1U~WgCdnIXtpmNnNvCvagqfQDqAiwTcdCL0KvuAsd1T86ZVToTQ4lnIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-image: url('../public/assets/images/katie-zaferes.png');
   background-size: cover;
   background-position: center;
   border-radius: 9px;
-  width:180px;
-  height: 235px;;
+  width: 180px;
+  height: 235px;
+  ;
+}
+
+.card--body {
+
+  width: 180px;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+
+.card--rating {
+  display: flex;
+
+}
+
+.rating--num {
+  color: #222222;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+
+}
+
+.rating--location {
+  color: #918E9B;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+
 }
